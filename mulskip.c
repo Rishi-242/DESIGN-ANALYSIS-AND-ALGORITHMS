@@ -5,7 +5,7 @@
 int main()
 {
 char str1[100],str2[100];
-int i,j,n=1,f=0,c=0;
+int i,j,n=1,f=0;
 printf("enter the string");
 gets(str1);
 printf("enter the substring");
@@ -23,7 +23,7 @@ f=0;
 if(str1[i+j]!=str2[i])
 {
 f=1;
-c++;
+//c++;
 break;
 }
 }
@@ -31,11 +31,12 @@ break;
 }
 if(f==1)
 {
+//c++;
 printf("the string is present\n");
 }
 else
 {
 printf("the string is not present\n");
 }
-printf("the count:%d\n",c);
+//printf("the count:%d\n",c);
 }
