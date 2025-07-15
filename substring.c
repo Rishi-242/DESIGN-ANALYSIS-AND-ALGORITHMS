@@ -1,4 +1,4 @@
-//1.no.of times the string occurance in the main string?
+//1.no.of times the  string occurance in the main string?
 //2.the occurance of substring in the main string?
 #include<stdio.h>
 #include<string.h>
@@ -31,12 +31,12 @@ if(f==0)
 c++;
 printf("sub string is  present at %d index number\n",i);
 f1=1;
+}}
 }
-else
+if(c==0)
 {
 printf("sub string is not   present at %d index number\n",i);
-//f1=1;
-}}}
+}
 printf("count %d\n",c);
 }
 
