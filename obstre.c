@@ -7,8 +7,7 @@ int obst(int i,int j){
 if(i>j)
 return 0;
 if(i==j){
-return freq[i];
-}
+return freq[i];}
 int min=INT_MAX;
 for(int k=i;k<=j;k++){
 int val=obst(i,k-1)+obst((k+1),j)+sum(i,j);
