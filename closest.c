@@ -1,8 +1,6 @@
-//2.find the nearest point?
-//Points: (2,3),(5,4),(1,1),(7,9)
-//Given Point: (4,5)(4, 5)(4,5)
-
-  //  Nearest Point: The nearest point to (4,5)is(5,4).
+//1.find the closect pair of point?
+//Points: (1,2),(3,4),(6,8),(10,12)
+ //   Closest Pair: The closest pair of points is (1,2) and (3,4)
 #include<stdio.h>
 #include<math.h>
 #include<limits.h>
@@ -12,7 +10,7 @@ int x,y;
 };
 int main()
 {
-int n,p1,p2;
+int n,p1,p2,p3,p4;
 printf("enter the number of values");
 scanf("%d",&n);
 struct point p[n];
@@ -32,7 +30,12 @@ if(d<min)
 min=d;
 p1=p[i].x;
 p2=p[i].y;
+p3=p[j].x;
+p4=p[j].y;
 }}}
-printf(" %d%d the closest points are",p1,p2);
+printf(" %d,%d,%d,%d the closest pair",p1,p2,p3,p4);
 
 }
+
+
+

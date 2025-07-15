@@ -1,4 +1,7 @@
 //3.find the farest point?
+//Points: (1,2),(3,4),(6,8),(10,12)
+
+ //   Farthest Pair: The farthest pair of points is(1,2) and(10,12).
 #include<stdio.h>
 #include<math.h>
 #include<limits.h>
